@@ -1,0 +1,42 @@
+[
+    {
+      "question": "Jak wyświetlić tekst w JS?",
+      "options": ["print()", "console.log()", "echo()"],
+      "answer": 1
+    },
+    {
+      "question": "Jak zadeklarować zmienną?",
+      "options": ["var x", "let x", "int x"],
+      "answer": 1
+    },
+    {
+      "question": "Stała w JS to:",
+      "options": ["let", "const", "static"],
+      "answer": 1
+    },
+    {
+      "question": "Typ tekstowy to:",
+      "options": ["number", "string", "bool"],
+      "answer": 1
+    },
+    {
+      "question": "Jak wygląda warunek?",
+      "options": ["if x > 0", "if (x > 0)", "if x then"],
+      "answer": 1
+    },
+    {
+      "question": "Tablica w JS to:",
+      "options": ["{}", "()", "[]"],
+      "answer": 2
+    },
+    {
+      "question": "Jak wygląda pętla for?",
+      "options": ["for i in", "for()", "loop"],
+      "answer": 1
+    },
+    {
+      "question": "Jak zdefiniować funkcję?",
+      "options": ["def", "function", "fun"],
+      "answer": 1
+    }
+  ]  

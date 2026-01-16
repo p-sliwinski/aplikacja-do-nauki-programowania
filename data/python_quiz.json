@@ -1,0 +1,52 @@
+[
+    {
+      "question": "Jak wyświetlić tekst w Pythonie?",
+      "options": ["echo()", "print()", "show()"],
+      "answer": 1
+    },
+    {
+      "question": "Jak przypisać wartość do zmiennej?",
+      "options": ["x == 5", "int x = 5", "x = 5"],
+      "answer": 2
+    },
+    {
+      "question": "Który typ danych to tekst?",
+      "options": ["int", "str", "bool"],
+      "answer": 1
+    },
+    {
+      "question": "Jak dodać element do listy?",
+      "options": ["add()", "append()", "push()"],
+      "answer": 1
+    },
+    {
+      "question": "Jak pobrać dane od użytkownika?",
+      "options": ["scan()", "input()", "read()"],
+      "answer": 1
+    },
+    {
+      "question": "Jak zaczyna się instrukcja warunkowa?",
+      "options": ["if", "for", "def"],
+      "answer": 0
+    },
+    {
+      "question": "Jak wykonać kod, gdy warunek jest fałszywy?",
+      "options": ["elif", "else", "end"],
+      "answer": 1
+    },
+    {
+      "question": "Jak stworzyć listę?",
+      "options": ["()", "{}", "[]"],
+      "answer": 2
+    },
+    {
+      "question": "Jak przejść po liście?",
+      "options": ["for", "while", "loop"],
+      "answer": 0
+    },
+    {
+      "question": "Jak zdefiniować funkcję?",
+      "options": ["function", "def", "fun"],
+      "answer": 1
+    }
+  ]  
