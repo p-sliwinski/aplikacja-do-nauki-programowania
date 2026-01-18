@@ -11,15 +11,18 @@ def python_quiz():
     for q in questions:
         print("")
         print(q["question"])
-        answer = input("Odpowiedz: ")
 
-        if answer == q["answer"]:
+        for i in range(len(q["options"])):
+            print(f"{i + 1}. {q['options'][i]}")
+
+        answer = input("Odpowiedź (numer): ")
+
+        if int(answer) - 1 == q["answer"]:
             print("Dobrze")
             score = score + 1
-
-        if answer != q["answer"]:
-            print("Zle")
-            print("Poprawna:", q["answer"])
+        else:
+            print("Źle")
+            print("Poprawna:", q["answer"] + 1)
 
     print("")
     print("Wynik:", score, "/", len(questions))
@@ -36,15 +39,18 @@ def js_quiz():
     for q in questions:
         print("")
         print(q["question"])
-        answer = input("Odpowiedz: ")
 
-        if answer == q["answer"]:
+        for i in range(len(q["options"])):
+            print(f"{i + 1}. {q['options'][i]}")
+
+        answer = input("Odpowiedź (numer): ")
+
+        if int(answer) - 1 == q["answer"]:
             print("Dobrze")
             score = score + 1
-
-        if answer != q["answer"]:
-            print("Zle")
-            print("Poprawna:", q["answer"])
+        else:
+            print("Źle")
+            print("Poprawna:", q["answer"] + 1)
 
     print("")
     print("Wynik:", score, "/", len(questions))
